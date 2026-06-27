@@ -1,29 +1,44 @@
 # Hi, I'm Nola 👋
 
-**Embedded systems & C developer.** I build firmware and low-level services for
-Linux-based IoT devices — serial/AT modem control, networking, and getting
-constrained hardware to talk to the cloud reliably.
+**Systems & low-level software developer.** I like building things from the metal
+up — operating systems, language runtimes, concurrent data structures, and
+firmware — in C, C++, and ARM assembly, and sometimes all the way down to the
+gates in HDL.
 
-- 🔧 Close to the metal: C, POSIX, serial protocols, multithreading
-- 📡 Into IoT, cellular/4G, embedded Linux, and edge connectivity
-- 🌱 Open to **embedded / systems software** roles
-- 📫 moyuean2020@gmail.com
+- 🛠️ Close to the metal: **C · C++20 · AArch64/ARMv8 assembly · POSIX · VHDL/Verilog**
+- 🧠 Into **operating systems, computer architecture, concurrency, and embedded systems**
+- 🌱 Open to **systems / embedded software** internships and new-grad roles
+- 📫 Reach me at **moyuean2020@gmail.com**
 
-### Tech I work with
+---
+
+### 🚀 Featured projects
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[Real-Time Train Control OS](https://github.com/Nola-Yang/Bare-Metal-Real-Time-Train-Control-OS-on-Raspberry-Pi)** | A preemptive real-time **microkernel OS**, bare-metal on a Raspberry Pi 4B — multi-train tracking, Dijkstra route planning, and deadlock-free track reservation. | C · ARMv8 asm |
+| **[Forth-ARM64](https://github.com/Nola-Yang/Forth-Complier-ARM-)** | A **Forth interpreter & compiler** written from scratch in AArch64 assembly (a jonesforth port) — indirect-threaded, self-hosting, with its own REPL. | ARM64 asm · Forth |
+| **[concurrent-ds](https://github.com/Nola-Yang/concurrent-ds)** | Header-only **C++20 concurrent data structures** — scalable counters and a **lock-free**, resizable hash set, with benchmarks. | C++20 |
+| **[m68k FPGA Microcomputer](https://github.com/Nola-Yang/m68k-fpga-microcomputer)** | A **Motorola 68000 microcomputer** on a DE1-SoC (Cyclone V) — TG68 soft-core CPU, memory controllers, caches, DMA, ACIA/I²C/SPI/CAN peripherals, VGA, and a 68k debug monitor. | VHDL · Verilog |
+| **[4G-LTE SMS Gateway](https://github.com/Nola-Yang/4g-lte-sms-gateway)** | An **embedded-Linux 4G/LTE gateway** in C — drives a Quectel EC20 modem over AT commands, bridges SMS ↔ MQTT, with a from-scratch PDU/Unicode codec and SQLite storage. | C · Linux |
+
+---
+
+### 🧰 Tech I work with
 
 ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/-C++20-00599C?logo=cplusplus&logoColor=white)
+![ARM Assembly](https://img.shields.io/badge/-ARM%20Assembly-0091BD?logo=arm&logoColor=white)
+![VHDL / Verilog](https://img.shields.io/badge/-VHDL%20%2F%20Verilog-543978)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black)
-![Embedded](https://img.shields.io/badge/-Embedded-007ACC)
-![MQTT](https://img.shields.io/badge/-MQTT-660066?logo=mqtt&logoColor=white)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?logo=cmake&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
 
-### Featured project
+---
 
-**[4g-lte-sms-gateway](https://github.com/Nola-Yang/4g-lte-sms-gateway)** —
-an embedded-Linux 4G/LTE SMS gateway in C. It drives a Quectel EC20 modem over
-serial (AT commands), bridges SMS to MQTT, encodes PDU/Unicode messages,
-auto-configures the carrier APN, and persists to SQLite — multithreaded, with a
-from-scratch SMS PDU codec.
+<div align="center">
 
-![stats](https://github-readme-stats.vercel.app/api?username=Nola-Yang&show_icons=true&hide_border=true)
+![Nola's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nola-Yang&show_icons=true&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nola-Yang&layout=compact&hide_border=true&langs_count=8)
+
+</div>
