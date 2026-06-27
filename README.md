@@ -10,6 +10,9 @@ gates in HDL.
 - 🌱 Open to **systems / embedded software** internships and new-grad roles
 - 📫 Reach me at **moyuean2020@gmail.com**
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nola%20Yang-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nola-jiayue-yang)
+[![Email](https://img.shields.io/badge/Email-moyuean2020@gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:moyuean2020@gmail.com)
+
 ---
 
 ### 🚀 Featured projects
