@@ -7,6 +7,7 @@ gates in HDL.
 
 - 🛠️ Close to the metal: **C · C++20 · AArch64/ARMv8 assembly · POSIX · VHDL/Verilog**
 - 🧠 Into **operating systems, computer architecture, concurrency, and embedded systems**
+- 🪶 On the side: **computational approaches to classical Chinese poetry** — prosody parsing & authorship stylometry
 - 🌱 Open to **systems / embedded software** internships and new-grad roles
 - 📫 Reach me at **moyuean2020@gmail.com**
 
@@ -24,6 +25,18 @@ gates in HDL.
 | **[concurrent-ds](https://github.com/Nola-Yang/concurrent-ds)** | Header-only **C++20 concurrent data structures** — scalable counters and a **lock-free**, resizable hash set, with benchmarks. | C++20 |
 | **[m68k FPGA Microcomputer](https://github.com/Nola-Yang/m68k-fpga-microcomputer)** | A **Motorola 68000 microcomputer** on a DE1-SoC (Cyclone V) — TG68 soft-core CPU, memory controllers, caches, DMA, ACIA/I²C/SPI/CAN peripherals, VGA, and a 68k debug monitor. | VHDL · Verilog |
 | **[4G-LTE SMS Gateway](https://github.com/Nola-Yang/4g-lte-sms-gateway)** | An **embedded-Linux 4G/LTE gateway** in C — drives a Quectel EC20 modem over AT commands, bridges SMS ↔ MQTT, with a from-scratch PDU/Unicode codec and SQLite storage. | C · Linux |
+
+---
+
+### 📜 Computational humanities — classical Chinese poetry
+
+Where my systems/compiler side meets a long-standing interest in classical
+Chinese literature. A poem in a fixed form *is* a formal grammar; "who wrote
+this?" *is* a classification problem.
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[classical-chinese-nlp](https://github.com/Nola-Yang/classical-chinese-nlp)** | A **prosody linter / type-checker** for 诗 · 词 — parses each character's *historical* tone (平/仄, including the 入声 that modern Mandarin lost) and validates against 近体诗 templates & 《钦定词谱》 with **compiler-style diagnostics** — plus a from-scratch **stylometry / authorship-attribution engine** (Burrows's Delta, char-bigram LM, leave-one-out), with two real authorship case studies: 岳飞《满江红》 and the Qing poet 贺双卿. | C++ · Python |
 
 ---
 
